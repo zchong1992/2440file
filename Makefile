@@ -1,3 +1,7 @@
+
+
+
+
 CFLAGS 	:= -Wall -Wstrict-prototypes -g -fomit-frame-pointer -ffreestanding
 all : crt0.S  leds.c
 	arm-linux-gcc $(CFLAGS) -c -o crt0.o crt0.S
